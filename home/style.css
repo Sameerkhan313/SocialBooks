@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainNavbar{
+    background-color: rgb(17, 116, 190) !important;
+    color: white !important;
+}
+
+#logo img{
+    width: 50% !important;
+}
+
+#icons{
+    gap: 30% !important;
+    font-size: 30px !important;
+}
+
+#searchBar{
+    width: 70% !important;
+    margin-left: 30% !important;
+
+    /* background-color: aqua; */
+}
+
+#searchBar input{
+    width: 100% !important;
+    border-radius: 20px !important ;
+    
+}
+
+#searchBar button{
+    padding: 0 !important;
+    width: 30% !important;
+    border-radius: 20px !important ;
+    /* margin-right: 5% !important; */
+    
+}
+#profileImg {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+#profileImg img{
+    width: 40% !important;
+    height: 40% !important;
+}
+
+#iconsclr{
+    color: white !important;
+}

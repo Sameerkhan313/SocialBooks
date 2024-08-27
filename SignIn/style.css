@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 192, 212);
+}
+
+#mainNavbar{
+    background-color: rgb(17, 116, 190) !important;
+}
+
+#logoBar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 20%;
+}
+
+#logo img{
+    width: 50% !important;
+}
+
+#mainContainer{
+    height: 87.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 192, 212);
+}
+
+#heading{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 5rem;
+}
+
+.inputArea{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.inputArea input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    /* margin-top: 0.5%; */
+}
+
+#signInBtn{
+    border-radius: 10% !important;
+    padding: 8px !important;
+    font-weight: 500 !important;    
+    background-color:rgb(17, 116, 190);
+    color: white;
+}
+
+#signInBtn:hover{
+    background-color: rgb(17, 116, 190);
+    color:black;
+    font-weight: 900 !important;    
+}
+
